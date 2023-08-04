@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-image: url(IMAGES/download.jpg); */
+  width: 100%;
+  font-family: Poppins;
+  background-color: lightgrey;
+}
+
+/* nav bar started here */
+.navigation {
+background: white;
+  padding: 5px;
+  display: flex;
+  /* border: 6px solid red; */
+  width: 100%;
+  height: 100px;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.mainHeader {
+  font-size: 20px;
+  /* font-weight: bold or bolder or light or numbers eg 500px; */
+  font-weight: 600px;
+  color: rgb(15, 15, 14);
+}
+
+.logo {
+  border-radius: 20px;
+}
+
+.ListItem {
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  list-style: none;
+}
+
+.primaryButton {
+  background-color: rgb(239, 91, 79);
+  color: white;
+  /* padding: 10px 20px 10px 20px; */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+.navigationlinks {
+  text-decoration: none;
+  transition: all o.3s;
+}
+
+.navigationlinks:hover {
+  color: rgb(239, 91, 79);
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(46, 33, 236);
+}
+
+.portifolio {
+  font-size: large;
+  font-weight: 600;
+}
+
+.container {
+  padding: 220px;
+  color: blueviolet;
+}
+
+.primaryButton:hover {
+  cursor: pointer;
+  color: black;
+  transition: all o.3s;
+}
+
+/* nav bar ended here */
+
+/* hero section started here*/
+
+.heroSection {
+  height: 1000px;
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.Title {
+  color: rgb(7, 43, 90);
+  font-size: 34px;
+}
+
+.Subtitle {
+  color: rgb(7, 43, 90);
+  font-size: 34px;
+}
+
+.heroImage{
+height: 00px;
+width: 200[px];
+}
+
+.Paragraph {
+  font-size: 34px;
+  color: rgb(7, 43, 90);
+  margin: 20px 0;
+}
+
+.learnmore {
+  background-color: rgb(239, 91, 79);
+  border: none;
+  padding: 10px 20px 10px;
+  border-radius: 20px;
+  color: white;
+}
+
+.hireme {
+  background-color: rgb(239, 91, 79);
+  border: none;
+  padding: 10px 20px 10px;
+  border-radius: 40px;
+  color: white;
+}
+
+.HeroText {
+  font-size: medium;
+  padding-top: 200px;
+}
+
+.Me {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+img {
+  width: 500px;
+  height: 400px;
+}
+
+.Aboutme {
+  width: 50%;
+  padding: 10px;
+  font-size: 20px;
+  margin-left: 40px;
+  text-align: justify;
+  padding-top:1px;
+}
+
+.intro {
+  margin: 20px 8px 20px;
+  font-size: 50px;
+  padding: 20px;
+}
+.Services {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 0.5rem;
+  padding-top: 40px;
+ 
+}
+
+.card-1 {
+  background-color: grey;
+  border-radius: 20px;
+  height: fit-content;
+  width: fit-content;
+}
+.card-2 {
+  background-color: grey;
+  border-radius: 20px;
+ height: fit-content;
+ width: fit-content;
+}
+.card-3 {
+  background-color: grey;
+  border-radius: 20px;
+  height: fit-content;
+  width: fit-content;
+}
+.card-4 {
+  background-color: grey;
+  border-radius: 20px;
+  height: 420px;
+  width: 300px;
+}
+
+.pic1 {
+  height: 300px;
+  width: 300px;
+  border-radius: 1.5rem;
+}
+
+
+.pic2 {
+  height: 300px;
+  width: 300px;
+  border-radius: 1.5rem;
+}
+
+
+.pic3 {
+  height: 300px;
+  width: 300px;
+  border-radius: 1.5rem;
+}
+
+
+.pic4 {
+  height: 300px;
+  width: 300px;
+  border-radius: 1.5rem;
+}
+.CTA {
+  display: flex;
+  justify-content: center;
+}
+button {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  background:  rgb(239, 91, 79) ;
+  border: none ;
+}
+
+.text{
+color: white;
+}
+.contactme{
+  color: white;
+text-align: center;
+background-color: grey;
+margin-top: 20px;
+height: 250px;
+}
+
+.bi{
+font-size: 50px;
+padding: 20px;
+}
+.contact{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
